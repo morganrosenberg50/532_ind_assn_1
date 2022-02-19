@@ -2,6 +2,5 @@ pandas
 gunicorn
 altair
 dash
-jupyter-dash
 dash_bootstrap_components
 plotly
