@@ -1,3 +1,7 @@
+import pandas as pd
+import altair as alt
+from dash import Dash, html, dcc, Input, Output
+
 data = pd.read_csv("BV_QWL_.csv")
 data_simp = pd.DataFrame({
     'total_score': data[data.columns[0]],
