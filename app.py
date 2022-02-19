@@ -23,6 +23,8 @@ def plot_altair(ymax):
 
 app = Dash(__name__, external_stylesheets=['https://codepen.io/chriddyp/pen/bWLwgP.css'])
 
+server = app.server
+
 app.layout = html.Div([
         html.Iframe(id='bar', 
                     srcDoc=plot_altair(ymax=20),
